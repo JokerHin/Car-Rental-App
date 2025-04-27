@@ -1,8 +1,8 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:car_rental_app/presentation/bloc/car_bloc.dart';
 import 'package:car_rental_app/presentation/bloc/car_state.dart';
 import 'package:car_rental_app/presentation/widgets/car_card.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
 
 class CarListScreen extends StatelessWidget {
   @override
